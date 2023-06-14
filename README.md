@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rive React Loading Sequence
 
-## Getting Started
+A NextJS example app using [Rive](https://rive.app/) [low-level web runtimes](https://help.rive.app/runtimes/overview/web-js/low-level-api-usage) to build a loading screen experience displaying two Rive files on one canvas, and dynamically created artboard/state machine instances of bears.
 
-First, run the development server:
+## Running Locally
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+To run the app locally, pull down the project and run the following commands:
+1. `npm i` - install the dependencies (including `@rive-app/canvas-advanced`, which is the low-level runtime)
+2. `npm run dev` - Starts the webpack dev server
+3. Navigate to `localhost:3000`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Livestream Tutorial
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project was built as part of a Rive Creative livestream. To watch the in-depth explanation of building this project, check this video:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Rive files
 
-## Learn More
+The Rive files used in this project were built by community members [Bobbeh](https://rive.app/@Bobbeh/) and [andrewbellart](https://rive.app/@andrewbellart/).
 
-To learn more about Next.js, take a look at the following resources:
+**Walking Bears**: https://rive.app/community/3717-7761-walk-cycles/
+**Animated Forest**: https://rive.app/community/5168-10376-forest/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Other Rive Documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For more documentation on the web runtimes, check this page out: https://help.rive.app/runtimes/overview/web-js
