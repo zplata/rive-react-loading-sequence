@@ -11,7 +11,7 @@ To run the app locally, pull down the project and run the following commands:
 
 ## Livestream Tutorial
 
-This project was built as part of a Rive Creative livestream. To watch the in-depth explanation of building this project, check this video:
+This project was built as part of a Rive Creative livestream. To watch the in-depth explanation of building this project, check this video: https://www.youtube.com/watch?v=MVEAfl-3LKo
 
 ## Rive files
 
